@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Event Hub</title>
+    <style>
+        #main {
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            height: 109vh;
+            align-items: center;
+            width: 100%;
+            background-image: url(login.jpg);
+            background-size: cover;
+        }
+
+            #main .img {
+                width: 100%;
+                height: 109vh;
+            }
+
+        .admin {
+            margin: 100px;
+            width: 130px;
+            height: 65px;
+            text-align: center;
+            border-radius: 20px;
+            background-color: white;
+            font-size: 20px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+            .admin:hover {
+                background-color: cyan;
+                
+            }
+
+        .customer {
+            width: 130px;
+            height: 65px;
+            text-align: center;
+            border-radius: 20px;
+            background-color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+
+            .customer:hover {
+                background-color: cyan;
+            }
+    </style>
+    <script src="https://kit.fontawesome.com/d4bd359809.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="main">
+        
+        <button onclick="document.location='Customer.html'" class="admin"><i class="fa-solid fa-lock"></i></button>
+       <button onclick="document.location='Customer.html'" class="customer" ><i class="fa-solid fa-user"></i></button>
+       
+
+    </div>
+
+
+</body>
+</html>
